@@ -2,32 +2,24 @@
  * @Author       : wyatt
  * @Date         : 2021-03-25 14:34:46
  * @LastEditors  : wyatt
- * @LastEditTime : 2021-03-25 15:14:46
+ * @LastEditTime : 2021-03-26 13:40:03
  * @Description  : 
- * @FilePath     : /ssr-project/README.md
+ * @FilePath     : /vue-ssr/README.md
 -->
-# ssr-project
+# vue-ssr
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run build
+nodemon ./server/04-ssr.js
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
+### view in browser
+http:127.0.0.1:80/
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
